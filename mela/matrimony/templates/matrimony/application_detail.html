@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<form style="border: thin solid black">
+<fieldset>
+Date : <input type="text" name="dte" value="{{ application.date_of_birth }}">
+Reciept No: <input type="text" name="rcpt" value="">
+Office Use Only: <input type="text" name="ouo" value="">
+<legend><h1 class="text-center">KARNATAKA  UNITED  SOURASHTRA  ORGANISATION®</h1></legend>
+<h4 class="text-center">Regd.  Office  :  #  66,  6th  Main,  4th  Block,  Rajajinagar,  Bangalore  -  560  010.  Mobile  :  +91-9902264195</h4>
+<h4 class="text-center">Admn.Off: KUSO,  C/o.  Pharma  Associates,  S-1859,  1st  ‘G’  Main,  ‘D’  Block,  M.K.K.  Road,  Rajajinagar  2nd  Stage,  Bengaluru  -  560010.</h4>
+<hr class="divider"></hr>
+  <p class="text-center">BRIDEGROOM / BRIDE INFORMATION</p>
+  <p class="text-center">(FOR SOURASTRA PEOPLE ONLY)</p>
+1. Name of the Bridegroom/Bride: <input type="text" name="name" value="{{ application.name}}"><br>
+2. a) Date of Birth: <input type="text" name="date_of_birth" value="{{ application.date_of_birth }}">b) Time : <input type="text" name="time" value="{{ application.time }}"><br>
+3. a) Place:  <input type="text" name="place" value="{{ application.place }}">b) Origin :   <input type="text" name="origin" value="{{ application.origin }}"><br>
+4. a) Gothram: <input type="text" name="gothram" value="{{ application.gothram  }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Family Name : <input type="text" name="family_name" value="{{ application.family_name }}"><br>
+5. a) Natchathram: <input type="text" name="natchathram" value="{{ application.natchathram }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Padam : <input type="text" name="padam" value="{{ application.padam }}" size="5"> c) Rasi : <input type="text" name="rasi" value="{{ application.rasi }}"><br>
+6. a) Height: <input type="text" name="height" value="{{ application.height }}" size="5">b) Colour : <input type="text" name="colour" value="{{ application.colour }}">c) Blood Group : <input type="text" name="blood_group" value="{{ application.blood_group }}"><br>
+7. Mother's Family Name: <input type="text" name="mother_f_name" value="{{ application.mother_f_name }}"><br>
+8. a) Education:   <input type="text" name="education" value="{{ application.education }}">b) Profession / Business Name : <input type="text" name="education" value="{{ application.education }}"><br>
+9. a) Employment Details: <input type="text" name="employment_details" value="{{ application.employment_details  }}">b) Office Name & Address : <input type="text" name="office_address" value="{{ application.office_address }}">c) Email Address : <input type="text" name="email_address" value="{{ application.email_address }}"><br>
+10. Monthly Salary/Income: <input type="text" name="salary" value="{{ application.salary }}"><br> 
+11. Father's Name/Occupation/City: <input type="text" name="father_name" value="{{ application.father_name }}"><br> 
+12. Mother's Name/Occupation/City: <input type="text" name="mother_name" value="{{ application.mother_name }}"><br>  
+13. Applicant is: <input type="text" name="applicant_is" value="{{ application.applicant_is }}" size="5">st/nd/rd/th child of parents<br> 
+14. Please write brief information on In-Law's of Brothers & Sisters: <input type="text" name="brief_information" value="{{ application.brief_information }}"><br>  
+15. Contact address and phone numbers of parents/guardians (with PIN code): <input type="text" name="contact_address" value="{{ application.contact_address }}" size="75"><br>
+16. Having Own House: <input type="text" name="having_house" value="{{ application.having_house }}"><br>
+17. Languages Known: <input type="text" name="languages_known" value="{{ application.languages_known }}"><br>
+18. Marital Status: <input type="text" name="marital_status" value="{{ application.marital_status }}"><br>
+<p class="text-center"><u>WHAT IS YOUR EXPECTATION ON YOUR LIFE PARTNER</u></p>
+19. Education of Bride/Groom: <input type="text" name="education_bride" value="{{ application.education_bride }}"><br>
+20. Origin Should be (Place): <input type="text" name="origin_place" value="{{ application.origin_place }}"><br>
+21. Should be living in: <input type="text" name="living_in" value="{{ application.living_in }}"><br>
+22. Should be working in: <input type="text" name="working_in" value="{{ application.working_in }}"><br>
+23. Doing business at: <input type="text" name="doing_business" value="{{ application.doing_business }}"><br>
+24. Height should be Minimum: <input type="text" name="height_shld_be" value="{{ application.height_shld_be }}"><br>
+25. Bride: <input type="text" name="bride_for_job" value="{{ application.bride_for_job }}"><br>
+26. Bride Should : <input type="text" name="bride_forced" value="{{ application.bride_forced }}"><br>
+27. Horoscope : <input type="text" name="horoscope" value="{{ application.horoscope }}"><br>
+28. Need : <input type="text" name="need" value="{{ application.need }}">
+</fieldset>
+</form>
+    
+    
+
+
+</body>
+</html>
+

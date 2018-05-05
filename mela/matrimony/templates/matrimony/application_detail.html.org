@@ -1,0 +1,12 @@
+<h1>BRIDEGROOM / BRIDE INFORMATION</h1>
+<ul>
+<li>1. Name of the Bridegroom/Bride: {{ application.name }} Date of Birth: {{ application.date_of_birth }} </li>
+<li>2. Date of Birth: {{ application.date_of_birth }}  Time : {{ application.time }}</li>
+<li>3. Place: {{ application.place }}  Origin: {{ application.origin }}</li>
+<li>4. Gothram: {{ application.gothram }} Family Name: {{ application.family_name }}</li>
+<li>5. Natchathram: {{ application.natchathram }} Padam: {{ application.padam }}</li>
+<li>6. Height: {{ application.height }} Colour: {{ application.colour }}</li>
+<li>7. Mother's Family Name: {{ application.mother_f_name }}</li>
+<li>8. Education: {{ application.education }}</li>
+<li>9: Employment Details: {{ application.employment_details }}</li>
+</ul>

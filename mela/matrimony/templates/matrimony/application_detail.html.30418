@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <h1 class="text-center">KARNATAKA  UNITED  SOURASHTRA  ORGANISATION®</h1>
+<h4 class="text-center">Regd.  Office  :  #  66,  6th  Main,  4th  Block,  Rajajinagar,  Bangalore  -  560  010.  Mobile  :  +91-9902264195</h4>
+<h4 class="text-center">Admn.Off: KUSO,  C/o.  Pharma  Associates,  S-1859,  1st  ‘G’  Main,  ‘D’  Block,  M.K.K.  Road,  Rajajinagar  2nd  Stage,  Bengaluru  -  560010.</h4>
+<hr class="divider"></hr>
+  <p class="text-center">BRIDEGROOM / BRIDE INFORMATION</p>
+  <p class="text-center">(FOR SOURASTRA PEOPLE ONLY)</p>
+ 
+  <p>1. Name of the Bridegroom/Bride: {{ application.name }}<p>
+   <p>2. a) Date of Birth: <span style="border:solid 1px black"> {{ application.date_of_birth }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  b) Time : <span style="border:solid 1px black">{{ application.time }}</span><p>
+<p>3. a) Place:   <span style="border:solid 1px black">  {{ application.place }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  b) Origin : <span style="border:solid 1px black">{{ application.origin }}</span><p>
+<p>4. a) Gothram:   <span style="border:solid 1px black">  {{ application.gothram  }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Family Name : <span style="border:solid 1px black">{{ application.family_name }}</span><p>
+<p>5. a) Natchathram:   <span style="border:solid 1px black">  {{ application.natchathram }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Padam : <span style="border:solid 1px black">{{ application.padam }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Rasi : <span style="border:solid 1px black"> {{ application.rasi }}</span><p>
+<p>6. a) Height:  <span style="border:solid 1px black">  {{ application.height }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Colour : <span style="border:solid 1px black">{{ application.colour }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Blood Group : <span style="border:solid 1px black"> {{ application.blood_group }}</span><p>
+<p>7. Mother's Family Name: <span style="border:solid 1px black"> {{ application.mother_f_name }} <span><p>
+<p>8. a) Education:   <span style="border:solid 1px black">  {{ application.education }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  b) Profession / Business Name : <span style="border:solid 1px black">{{ application.education }}</span><p>
+<p>9. a) Employment Details:  <span style="border:solid 1px black">  {{ application.employment_details  }} </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Office Name & Address : <span style="border:solid 1px black">{{ application.office_address  }}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; c) Email Address :  <span style="border:solid 1px black"> {{ application.email_address }}</span><p>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <div class="row">
+    <div class="col-lg-4" style="background-color:lavender;">1. Name of the BridRasi :egroom/Bride: {{ application.name }}</div></div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:lavender;">2. a) Date of Birth: {{ application.date_of_birth }}</div>
+    <div class="col-lg-4" style="background-color:lavender;">b) Time : {{ application.time }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:lavender;">3. a) Place: {{ application.place }}</div>
+    <div class="col-lg-4" style="background-color:lavender;">b) Origin : {{ application.origin }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">4. a) Gothram: {{ application.gothram }}</div>
+    <div class="col-lg-4" style="background-color:none;">b) Family Name : {{ application.family_name }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">5. a) Natchathram: {{ application.natchathram }}</div>
+    <div class="col-lg-4" style="background-color:none;">b) Padam : {{ application.padam }}</div>
+    <div class="col-lg-4" style="background-color:none;">c) Rasi : {{ application.rasi }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">6. a) Height: {{ application.height }}</div>
+    <div class="col-lg-4" style="background-color:none;">b) Colour : {{ application.colour }}</div>
+    <div class="col-lg-4" style="background-color:none;">c) Blood Group : {{ application.blood_group }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">7. Mother's Family Name: {{ application.mother_f_name }}</div></div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">8. a) Education: {{ application.education }}</div>
+    <div class="col-lg-4" style="background-color:none;">b) Profession / Business Name : {{ application.education }}</div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">9. a) Employment Details: {{ application.employment_details }}</div>
+    <div class="col-lg-4" style="background-color:none;">b) Office Name & Address : {{ application.office_address }}</div>
+    <div class="col-lg-4" style="background-color:none;">c) Email Address : {{ application.email_address }}</div>email_address
+  </div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">10. Monthly Salary/Income: {{ application.salary }}</div></div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">11. Father's Name/Occupation/City: {{ application.father_name }}</div></div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">12. Mother's Name/Occupation/City: {{ application.mother_name }}</div></div>
+  <div class="row">
+    <div class="col-lg-4" style="background-color:none;">13. Applicant is: {{ application.applicant_is }} st/nd/rd/th child of parents</div></div>
+   <div class="row">
+    <div class="col-lg-4" style="background-color:none;">14. Please write brief information on In-Law's of Brothers & Sisters:{{ application.brief_information }}</div></div> 
+   <div class="row">
+    <div class="col-lg-4" style="background-color:none;">15. Contact address and phone numbers of parents/guardians (with PIN code): {{ application.contact_address }}</div></div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">Phone: {{ application.phone }}</div>
+    <div class="col-lg-4" style="background-color:none;">Mobile: {{ application.mobile }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">16. Having Own House: {{ application.having_house }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">17. Languages Known: {{ application.languages_known }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">18. Marital Status: {{ application.marital_status }}</div>
+    </div>
+    <p class="text-center"><u>WHAT IS YOUR EXPECTATION ON YOUR LIFE PARTNER</u></p>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">19. Education of Bride/Groom: {{ application.education_bride }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">20. Origin Should be (Place): {{ application.origin_place }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">21. Should be living in: {{ application.living_in }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">22. Should be working in: {{ application.working_in }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">23. Doing business at: {{ application.doing_business }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">24. Height should be Minimum: {{ application.height_shld_be }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">25. Bride: {{ application.bride_for_job }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">26. Bride Should : {{ application.bride_forced }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">27. Horoscope : {{ application.horoscope }}</div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4" style="background-color:none;">28. Need : {{ application.need }}</div>
+    </div>
+    
+</div>
+
+</body>
+</html>
+
