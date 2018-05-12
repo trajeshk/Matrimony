@@ -20,7 +20,8 @@ Office Use Only: <input type="text" name="ouo" value="">
 <hr class="divider"></hr>
   <p class="text-center">BRIDEGROOM / BRIDE INFORMATION</p>
   <p class="text-center">(FOR SOURASTRA PEOPLE ONLY)</p>
-1. Name of the Bridegroom/Bride: <input type="text" name="name" value="{{ application.name}}"><br>
+0. Photo: <img src="/media/{{application.picture}}" width="300"><br/>
+  1. Name of the Bridegroom/Bride: <input type="text" name="name" value="{{ application.name}}"><br>
 2. a) Date of Birth: <input type="text" name="date_of_birth" value="{{ application.date_of_birth }}">b) Time : <input type="text" name="time" value="{{ application.time }}"><br>
 3. a) Place:  <input type="text" name="place" value="{{ application.place }}">b) Origin :   <input type="text" name="origin" value="{{ application.origin }}"><br>
 4. a) Gothram: <input type="text" name="gothram" value="{{ application.gothram  }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b) Family Name : <input type="text" name="family_name" value="{{ application.family_name }}"><br>
@@ -29,11 +30,11 @@ Office Use Only: <input type="text" name="ouo" value="">
 7. Mother's Family Name: <input type="text" name="mother_f_name" value="{{ application.mother_f_name }}"><br>
 8. a) Education:   <input type="text" name="education" value="{{ application.education }}">b) Profession / Business Name : <input type="text" name="education" value="{{ application.education }}"><br>
 9. a) Employment Details: <input type="text" name="employment_details" value="{{ application.employment_details  }}">b) Office Name & Address : <input type="text" name="office_address" value="{{ application.office_address }}">c) Email Address : <input type="text" name="email_address" value="{{ application.email_address }}"><br>
-10. Monthly Salary/Income: <input type="text" name="salary" value="{{ application.salary }}"><br> 
-11. Father's Name/Occupation/City: <input type="text" name="father_name" value="{{ application.father_name }}"><br> 
-12. Mother's Name/Occupation/City: <input type="text" name="mother_name" value="{{ application.mother_name }}"><br>  
-13. Applicant is: <input type="text" name="applicant_is" value="{{ application.applicant_is }}" size="5">st/nd/rd/th child of parents<br> 
-14. Please write brief information on In-Law's of Brothers & Sisters: <input type="text" name="brief_information" value="{{ application.brief_information }}"><br>  
+10. Monthly Salary/Income: <input type="text" name="salary" value="{{ application.salary }}"><br>
+11. Father's Name/Occupation/City: <input type="text" name="father_name" value="{{ application.father_name }}"><br>
+12. Mother's Name/Occupation/City: <input type="text" name="mother_name" value="{{ application.mother_name }}"><br>
+13. Applicant is: <input type="text" name="applicant_is" value="{{ application.applicant_is }}" size="5">st/nd/rd/th child of parents<br>
+14. Please write brief information on In-Law's of Brothers & Sisters: <input type="text" name="brief_information" value="{{ application.brief_information }}"><br>
 15. Contact address and phone numbers of parents/guardians (with PIN code): <input type="text" name="contact_address" value="{{ application.contact_address }}" size="75"><br>
 16. Having Own House: <input type="text" name="having_house" value="{{ application.having_house }}"><br>
 17. Languages Known: <input type="text" name="languages_known" value="{{ application.languages_known }}"><br>
@@ -51,8 +52,8 @@ Office Use Only: <input type="text" name="ouo" value="">
 28. Need : <input type="text" name="need" value="{{ application.need }}">
 </fieldset>
 </form>
-    
-    
+
+
 
 
 </body>
