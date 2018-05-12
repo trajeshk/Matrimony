@@ -99,13 +99,10 @@ HOUSTATUS = (
 
 
 
-
-
-
 # Create your models here.
 class Application(models.Model):
     name = models.CharField(max_length=200)
-    #picture = models.ImageField()
+    picture = models.FileField(upload_to='documents/', default="")
     date_of_birth = models.DateField(default=datetime.date.today)
     time = models.CharField(max_length=120)
     place = models.CharField(max_length=120)
@@ -147,8 +144,6 @@ class Application(models.Model):
     horoscope = models.CharField(max_length=50,choices=HSTATUS)
     need = models.CharField(max_length=20,choices=NEESTATUS)
         
-    
-    
     def __unicode__(self):
         return self.name
 
