@@ -43,9 +43,3 @@ class ApplicationDelete(DeleteView):
 class ApplicationDetail(DetailView):
     model = Application
     success_url = reverse_lazy('application_list')
-    fields = ['name', 'picture', 'date_of_birth', 'time', 'place', 'origin', 'gothram', 'family_name', 'natchathram', 'padam',
-              'rasi', 'height', 'colour', 'blood_group', 'mother_f_name', 'education', 'employment_details',
-              'office_address', 'email_address', 'salary', 'father_name', 'mother_name', 'applicant_is',
-              'brief_information', 'contact_address', 'phone', 'mobile', 'having_house', 'languages_known',
-              'marital_status', 'education_bride', 'origin_place', 'living_in', 'working_in', 'doing_business',
-              'height_shld_be', 'bride_for_job', 'bride_forced', 'horoscope', 'need']
